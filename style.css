@@ -1,0 +1,381 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: "Lato", sans-serif;
+}
+header{
+    background: #222222;
+    padding: 18px 0 19px 0;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 10px;
+    width: 100%;
+margin:0 auto;
+}
+.header_wrap {
+    display: flex;
+ justify-content: space-between;   
+}
+.header_leftside,
+.header_rightside{
+    display: flex;
+    justify-content: space-between;
+}
+.top_logo{
+  padding-right: 41px ; 
+}
+.rightlogos:not(:last-child){
+    margin: 0 33px 0 0;
+}
+.top{
+    background-color: #F1E4E6;
+    width: 100%;
+    height: 764px;
+    
+   }
+.top_wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+    background: url(images/Chappie.png) no-repeat -130px bottom;
+    background-size: 70%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+.text_wrapper{
+    margin-right: 101px;
+    max-width: 405px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    white-space: nowrap
+}
+.top_text{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+.top_text_small{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.top_text_decor{
+    color: #F16D7F;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 44px;
+}
+.deals{
+    background: #E5E5E5;
+    padding-top: 65px;
+}
+.deals_wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+/* почему здесь все съезжает если включить?.block:last-child{
+    width:100%;
+}*/
+.woman{
+    background: url(images/Block_woman.png) no-repeat center;
+    width:360px;
+    height:260px;
+}
+.man{
+    background: url(images/Block_man.png) no-repeat center; 
+    width:360px;
+    height:260px;
+}
+.kids{
+    background: url(images/Block_kids.png) no-repeat center; 
+    width:360px;
+    height:260px;
+}
+.acsessories{
+    background: url(images/Block_lastchild.png) no-repeat center; 
+width: 100%;
+height: 180px;
+}
+
+.text_sale_woman,.text_sale_man,.text_sale_kids,.text_sale_acsessories {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    justify-content: center;
+    text-align: center;
+    color: snow;
+    padding-top: 105px;
+}
+.text_sale_woman2,.text_sale_man2,.text_sale_kids2,.text_sale_acsessories2{
+    color:#F16D7F
+    
+}
+.links{
+    text-decoration: none;
+}
+.product{
+    background: #E5E5E5;
+    padding-bottom: 95.5px;
+}
+.product_wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 96px;
+}
+.link_items{
+    text-decoration: none;
+    text-align: center;
+}
+.text_items{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+.text_items_smaller{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #9F9F9F;
+}
+.cards_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 57px;
+}
+.card{
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+
+}
+.link_goods{
+    text-decoration:none;
+}
+.card_picture{
+    width: 360px;
+    height: 420px;
+    padding-bottom: 25.35px;
+}
+.card_text{
+    padding:25.35px 28.8px 20px 18px;
+}
+.name{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.6;
+    color: #000000;
+    height: 16px;
+    
+}
+.descrip{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #5D5D5D;
+    height: 51px;
+    padding-top: 28.65;
+    }
+.price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #F16D7F;
+    height: 19px;
+}
+button{
+    border: 1px solid #FF6A6A;
+    width: 212px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+   margin-top: 48.5px;
+    color: #f26376;
+}
+.button_position {
+text-align: center;
+}
+.link_moregoods{
+    decoration:none;
+   
+}
+.advantages{
+    width: 100%;
+    background: #222224;
+    height: 341px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+  
+    
+}
+.advantages_wrapper{
+    width: 360 px;
+    height: 134px;
+    margin-top: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   align-content: flex-start;
+
+}
+.advantages_img{
+    display: inline-block;
+   
+   
+}
+.advantages_header{
+    font-weight: 400;
+    font-size: 19.96px;
+    /*это значение есть у дизайнера, если включить все съезжает line-height: 23.95;*/
+    color: #FBFBFB;
+    width: 117px;
+    height: 24px;
+    white-space: nowrap;
+    padding-top: 16px;
+    padding-bottom: 49px ;
+   
+}
+.advantages_text{
+    font-weight: 300;
+    font-size: 13.97px;
+    /*line-height: 16.77;*/
+    color: #FBFBFB;
+    text-align: center;
+    width: 360px;
+    height: 34px;
+    
+}
+.contacts{
+    width: 100%;
+    height: 448px;
+    background: url(images/footer/background_footer.png) no-repeat;
+    background-size: 100%;
+}
+
+.form_subscribe{
+    height: 49px;
+}
+.subscribe_style{
+    display: flex;
+    justify-content: flex-end;
+    height: 49px;
+    padding-top: 32px;
+    
+
+}
+.enter_email{
+    padding: 16px 10px;
+    border-radius: 25px 0 0 25px;
+    border:none;
+    background-color: #E1E1E1;
+   
+   }
+   .enter_email::placeholder{
+       font-weight: 400;
+       font-size: 14px;
+       color: #222224;
+   }
+.subscribe_button{
+    padding: 16px 10px;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    background-color: #F16D7F;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 100px;
+    
+        
+}  
+.subscribe{
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    color: #FFFFFF;
+}
+.text_subscribe{
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+color: #222224;
+}
+.text_ed{
+    font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #222224;
+}
+.about_us{
+    width: 96px;
+    height: 96px;
+}
+.section_container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+}
+.contacts_container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-left: 228px;
+}
+.subscribe_container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 53px;
+    padding-right: 230px;
+       
+}
+.text_about{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer_bottom{
+    width: 100%;
+    height: 79px;
+    background: #222224;
+}
+.copywrite{
+    color: #F8F8F8;
+    font-weight: 400;
+    font-size: 16px;
+   width: 332px;
+   height: 19px;
+   padding-top: 30px;
+   padding-left: 235px;
+   white-space: nowrap;
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    height: 79px;
+    padding-right: 230px;
+    
+
+}
+.soc_label{
+    width: 32px;
+    height: 32px;
+}
